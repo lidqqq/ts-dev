@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "ext": "js,ts",
+  "exec": "ts-node ./src/main.ts",
+  "events": {
+    "start": "clear"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "watch": ["src/"],
+  "ignore": [".git", "node_modules/"]
+}
