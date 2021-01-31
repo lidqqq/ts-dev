@@ -1,1 +1,2 @@
-console.log(2341);
+import { mod } from '@/mod';
+console.log(mod);
